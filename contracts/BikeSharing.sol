@@ -10,8 +10,8 @@ contract BikeSharing {
     
     event Transaction(address _occupant, uint _value);
     
-    constructor() public {
-        owner = msg.sender;
+    constructor() {
+        // owner = msg.sender;
         currentStatus = Statuses.Available;
     }
     
